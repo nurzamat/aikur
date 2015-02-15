@@ -40,8 +40,8 @@
 	
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/credit?autoReconnect=true&amp;createDatabaseIfNotExist=true&amp;" />
-		<property name="username" value="root" />
-		<property name="password" value="" />
+		<property name="url" value="jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/credit?autoReconnect=true&amp;createDatabaseIfNotExist=true&amp;" />
+		<property name="username" value="adminvN7RQu1" />
+		<property name="password" value="D5gXVSTAdA2T" />
 	</bean>
 </beans>
